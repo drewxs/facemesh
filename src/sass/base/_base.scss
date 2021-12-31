@@ -1,0 +1,6 @@
+@use '../abstract/colors' as *;
+
+html,
+body {
+	background-color: map-get($colors, neutral, 900);
+}

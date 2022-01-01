@@ -1,0 +1,16 @@
+@use '../abstract/colors' as *;
+
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+
+	.webcam {
+		position: absolute;
+		text-align: center;
+		width: 720px;
+		height: 480px;
+	}
+}
